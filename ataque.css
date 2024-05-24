@@ -1,0 +1,77 @@
+.titulo{
+    text-align: center;
+    font-size: 80px;
+    background-image: url(bola\ mexida.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-top: 0;
+
+}
+.navbar {
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    color:#000000 ;
+    padding: 5px;
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    border-bottom: 2px solid transparent; 
+    border-top: 2px solid transparent;
+    transition: border-top 0.7s ease, border-bottom 0.7s ease;
+}
+
+.navbar a:hover {
+    color:#0c85e9;
+    border-top: 2px solid #0c85e9;
+    border-bottom: 2px solid #0c85e9;
+    padding: 3px; 
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.box1 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+    margin-bottom: 20px;
+    max-width: 100%;
+
+}
+.box1 p {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+    transition: background-color 0.3s ease;
+    padding: 15px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+
+.box1 img{
+    max-width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    order: 1;
+    border-radius: 50px;
+    transition: transform 0.5s ease;
+}
+
+.box1 img:hover {
+    transform: scale(1.2); 
+}
